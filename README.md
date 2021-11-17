@@ -48,7 +48,7 @@ For the last contract for the TTA Bookstore, we were asked to test their app for
 
 ![JH-10544-Admin-Access-2](https://user-images.githubusercontent.com/84826626/142258653-d36e7349-e6f3-43a8-a215-13d952d23771.png)
 
-*Jump to:* [Penetration Testing Experience](/README.md#penetration-testing-experience), [Defensive Analysis Experience](/README.md#defensive-analysis-experience), [Page Top](/README.md#liveproject)
+*Jump to:* [Penetration Testing Experience](/README.md#penetration-testing-experience), [Defensive Analysis Experience](/README.md#defensive-analysis-experience), [Page Top](/README.md)
 
 
 ## Defensive Analysis Experience
@@ -75,7 +75,7 @@ We found a malicious PowerShell script that we were concerned might be dangerous
 ![JH-10545-PowerShell-Analysis-1](https://user-images.githubusercontent.com/84826626/142260779-bf641fba-dc97-4cd1-9e16-52e3d1a5b4bd.png)
 
 
-### Malware Deep Investivation
+### Malware Deep Investigation
 
 In this story, my friend's aunt opened a sketchy email and her bank account was hacked.  We were tasked with reviewing the pcap file to determine information about her computer as well as the hack itself.  I was asked to find data such as her IP address, MAC address, Host Name, and Windows Account Username.  I found all that using Wireshark in a Kali Linux box.  I also discovered the type of malware, a W32/Ursnif Trojan, and the source of the infection as well as the site visited following infection.  She opened a link in a phishing email and the malware took her to a banking website immediately following infection.  To find this information, I filtered the traffic with bootp to find her host information and then I found her Windows account by sniffing kerberos traffic.  I viewed the alerts file to find the type of malware and viewed the traffic before and after it.  I google searched for information on the malware host name and found out details about the particular malware.  I recommend to her to not click on links from people she doesn't know or isn't 100% certain it's the correct email.  I also suggested looking at the url of the link before clicking on it.
 
@@ -103,4 +103,4 @@ The last story I completed was another pcap analysis story.  I received a pcap f
 
 ![JH-10605-Find-Culprit-5](https://user-images.githubusercontent.com/84826626/142264926-a1131f6c-b56a-42b1-96e3-5d0e857ab6df.png)
 
-*Jump to:* [Penetration Testing Experience](/README.md#penetration-testing-experience), [Defensive Analysis Experience](/README.md#defensive-analysis-experience), [Page Top](/README.md#liveproject)
+*Jump to:* [Penetration Testing Experience](/README.md#penetration-testing-experience), [Defensive Analysis Experience](/README.md#defensive-analysis-experience), [Page Top](/README.md)
